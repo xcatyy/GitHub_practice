@@ -59,3 +59,14 @@ random_numbers4 <- readRDS(
 #| fig.cap = "Fourth set of random numbers"
 hist(random_numbers4)
 ```
+```{r, load-random-numbers5, include = FALSE}
+random_numbers5 <- readRDS(
+  here::here("output/random_numbers5.rds")
+)
+```
+
+# Random numbers 5
+```{r, random-numbers5-histogram}
+#| fig.cap = "Fifth set of random numbers"
+hist(random_numbers5)
+```
